@@ -26,7 +26,7 @@
 
 * [Cron Maker](http://www.cronmaker.com)  + [Cron Trigger Tutorial](http://www.quartz-scheduler.org/documentation/quartz-2.3.0/tutorials/crontrigger.html) + [FreeFormatter Cron Expression Generator](https://www.freeformatter.com/cron-expression-generator-quartz.html) 
 
-* [Vue.js](https://br.vuejs.org/v2/guide/index.html) + [Vue.js](https://hub.docker.com/_/postgres) 
+* [Vue.js](https://br.vuejs.org/v2/guide/index.html)
 
 
 ### Entretenimento e conhecimento
