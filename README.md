@@ -30,7 +30,7 @@
         docker run -p 5432:5432  --name container-postgresdb -e POSTGRES_USER=user -e POSTGRES_PASSWORD=admin -d postgres
 
         pdAdmin4
-        docker run -p 5050:80  --name container-pgadmin -e PGADMIN_DEFAULT_EMAIL=ferna126@hotmail.com -e PGADMIN_DEFAULT_PASSWORD=admin         -d dpage/pgadmin4
+        docker run -p 5050:80  --name container-pgadmin -e PGADMIN_DEFAULT_EMAIL=ferna126@hotmail.com -e PGADMIN_DEFAULT_PASSWORD=admin -d dpage/pgadmin4
 
         VueJS
         docker run -it -p 8080:8080 --rm --name dockerize-fernando-app-1 vuejs-fernando/dockerize-vuejs-app
