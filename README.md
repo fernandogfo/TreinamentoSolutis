@@ -38,7 +38,7 @@
           postgres db config
           host: host.docker.internal
           database: postgres
-          user: postgres
+          user: user
           password: admin
         
 ```
