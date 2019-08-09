@@ -29,5 +29,10 @@
 * [Vue.js](https://br.vuejs.org/v2/guide/index.html) + [Vue.js](https://hub.docker.com/_/postgres) 
 
 
+### Entretenimento e conhecimento
+
+* [HipsterTech](https://hipsters.tech) para quem quiser se atualizar e aprender um pouco.
+
+
 ### License
 ### MIT
