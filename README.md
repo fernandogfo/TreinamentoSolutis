@@ -10,15 +10,16 @@
 
 ### Projeto Java + Spring
 
- * [ESP8266 CIRCUIT](https://github.com/DrLunatic/ESP8266_MQTT_ANDROIDAPP/blob/master/NODEMCU%20ESP8266%20CIRCUIT.png)
+ * [Java 8 + Spring](https://github.com/DrLunatic/TreinamentoSolutis)
  
 ### Projeto VueJS
 
-* [ESP8266 CODE](https://github.com/DrLunatic/ESP8266_MQTT_ANDROIDAPP/blob/master/ESP8266_MQTT.ino)
+* [VueJS](https://github.com/DrLunatic/projetoVuejs)
+  Tive que por em outro repositório.
 
-### Docker para subir o postgres + pgAdmin
+### Docker para subir o postgres + pgAdmin4
 
-* [Código Classe principal/Main Class Code](https://github.com/DrLunatic/ESP8266_MQTT_ANDROIDAPP/blob/master/AndroidAppMainClassCODE)
+* [Docker postgres](https://hub.docker.com/_/postgres) + [Docker pgAdmin4](https://hub.docker.com/r/dpage/pgadmin4/)
 
 
 ### Links Interessantes abaixo vvvvvvv
@@ -27,35 +28,6 @@
 
 * [Vue.js](https://br.vuejs.org/v2/guide/index.html) + [Vue.js](https://hub.docker.com/_/postgres) 
 
-
-
-
-```sh
-        <uses-permission android:name="android.permission.WAKE_LOCK" />
-        <uses-permission android:name="android.permission.INTERNET" />
-        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-        <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-```
-```sh
-        <service android:name="org.eclipse.paho.android.service.MqttService" >
-        </service>
-```
-
-- Repositório Maven e Dependencias no build gradle do app / Repositories Maven and Dependencies on build gradle of the app:
-```sh
-        repositories {
-         maven {
-             url "https://repo.eclipse.org/content/repositories/paho-releases/"
-                    }
-                    }
-```
-```sh
-         dependencies {
-             compile('org.eclipse.paho:org.eclipse.paho.android.service:1.0.2') {
-                    exclude module: 'support-v4'
-          }
-          }
-```
 
 ### License
 ### MIT
