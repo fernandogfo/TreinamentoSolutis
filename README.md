@@ -22,9 +22,9 @@
 * [Docker postgres](https://hub.docker.com/_/postgres) + [Docker pgAdmin4](https://hub.docker.com/r/dpage/pgadmin4/)
 
 ```sh
-        docker push drlunatic/vuejs:latest
-        docker push drlunatic/pgadmin4:latest
-        docker push drlunatic/postgres:latest
+        docker pull drlunatic/vuejs:latest
+        docker pull drlunatic/pgadmin4:latest
+        docker pull drlunatic/postgres:latest
         
         postgres
         docker run -p 5432:5432  --name container-postgresdb -e POSTGRES_USER=user -e POSTGRES_PASSWORD=admin -d postgres
